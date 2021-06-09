@@ -1,0 +1,14 @@
+.sideNav {
+    height: 80vw;
+    width: 35vw;
+    border-right: 1px solid #f5f5f5;
+}
+
+.paginateButtons {
+    margin-top: 3vw;
+    margin-right: 3vw;
+    margin-left: 3vw;
+    display: flex;
+    justify-content: center;
+    column-gap: 10vw;
+}

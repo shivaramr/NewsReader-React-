@@ -1,0 +1,106 @@
+.searchButton {
+    align-self: center;
+    min-height: 36px;
+    width: 150px;
+    margin-left: 1vw;
+    background-color: white;
+    border: 2px solid #2196f3;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.searchButton:active {
+    background-color: #2196f3;
+}
+
+.dialog {
+    height: auto;
+    width: auto;
+}
+
+.dialogContent {
+    height: max-content;
+    width: auto;
+}
+
+.title {
+    height: 2.5vw;
+    border-bottom: 1px solid #c5c5c5;  
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.close {
+    position: relative;
+    float: right;
+    top: -15px;
+    right: -10px;
+}
+
+.body {
+    border-bottom: 1px solid #c5c5c5;
+}
+
+.button {
+    height: 30px;
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 2px solid #2196f3;
+    background-color: white;
+    cursor: pointer;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0.5vw;
+}
+
+.dropdown {
+    margin-top: 1vw;
+    width: 20vw;
+}
+
+.is {
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.input {
+    width: max-content;
+}
+
+.endButtons {
+    display: flex;
+}
+
+.cancel {
+    height: 40px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: auto;
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: white;
+    cursor: pointer;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.cancel:hover {
+    background-color: whitesmoke;
+}
+
+.result {
+    height: 40px;
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 2px solid white;
+    color: white;
+    background-color: #2196f3;
+    cursor: pointer;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
