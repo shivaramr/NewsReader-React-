@@ -29,6 +29,10 @@
     width: 30vw;
 }
 
+.search {
+    cursor: pointer;
+}
+
 .user {
     align-self: center;
     margin-left: auto;
