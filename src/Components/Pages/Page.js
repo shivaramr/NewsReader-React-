@@ -25,7 +25,7 @@ function Page() {
         </div>
         <div className="pageDate">{date}</div>
       </div>
-      <Scrollbars style={{ width: "65vw", height: "67vw" }}>
+      <Scrollbars style={{ width: "65vw", height: "67vh" }}>
         <div className="pageContent">
           <p>{news[idx].content}</p>
         </div>

@@ -79,7 +79,7 @@ function SideNav() {
   return (
     <div className="sideNav">
       <DateRangePicker onChange={onChange} />
-      <Scrollbars style={{ width: "30vw", height: "70vw" }}>
+      <Scrollbars style={{ width: "30vw", height: "70vh" }}>
         {news
           ? news.map((element, index) => {
               return <Card index={index} element={element} />;

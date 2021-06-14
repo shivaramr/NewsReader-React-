@@ -1,8 +1,8 @@
 .page {
-    height: 75vw;
+    height: 75vh;
     width: 80vw;
     text-align: center;
-    margin-top: 2vw;
+    margin-top: 2vh;
 }
 
 .pageHead {
@@ -11,7 +11,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 1vw;
+    margin-bottom: 1vh;
 }
 
 .pageSubhead {    
@@ -21,7 +21,7 @@
     flex-direction: row;
     /* column-gap: 29vw; */
     border-bottom: 1px solid #c5c5c5;
-    margin-bottom: 1vw;
+    margin-bottom: 1vh;
 }
 
 .pageAuthor {
