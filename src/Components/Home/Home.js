@@ -4,7 +4,7 @@ import SideNav from "../SideNav/SideNav";
 import TopNav from "../TopNav/TopNav";
 import { newsContext } from "../../Helper/Context";
 import { url } from "../../Helper/API";
-import "./homeStyle.css";
+import style from "./homeStyle.module.css";
 
 function Home() {
   const { Provider } = newsContext;
@@ -50,7 +50,7 @@ function Home() {
   return (
     <Provider value={contextValues}>
       <TopNav />
-      <div className="contents">
+      <div className={style.contents}>
         <SideNav />
         {news.length ? <Page /> : "Loading..."}
       </div>

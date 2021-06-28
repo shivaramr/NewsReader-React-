@@ -5,7 +5,7 @@ import DateRangePicker from "./subcomponents/DateRangePicker/DateRangePicker";
 import Card from "./subcomponents/Card/Card";
 import { newsContext } from "../../Helper/Context";
 import { url } from "../../Helper/API";
-import "./sideStyle.css";
+import style from "./sideStyle.module.css";
 
 function SideNav() {
   const {
@@ -77,7 +77,7 @@ function SideNav() {
   // };
 
   return (
-    <div className="sideNav">
+    <div className={style.sideNav}>
       <DateRangePicker onChange={onChange} />
       <Scrollbars style={{ width: "30vw", height: "70vh" }}>
         {news
@@ -86,7 +86,7 @@ function SideNav() {
             })
           : "Loading..."}
       </Scrollbars>
-      <div className="paginateButtons">
+      <div className={style.paginateButtons}>
         <FcPrevious />
         <FcNext />
       </div>

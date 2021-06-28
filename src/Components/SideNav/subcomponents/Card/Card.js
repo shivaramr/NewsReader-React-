@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import moment from "moment";
 import FiberManualRecordIcon from "@material-ui/icons/FiberManualRecord";
 import { newsContext } from "../../../../Helper/Context";
-import "./card.css";
+import style from "./card.module.css";
 
 function Card(props) {
   const { setSelectedIndex } = useContext(newsContext);
@@ -18,14 +18,14 @@ function Card(props) {
   if (element.sentiment === "Negative") status = false;
 
   return (
-    <div className="card" onClick={() => setSelectedIndex(index)}>
-      <p className="dateHeading">{date}</p>
+    <div className={style.card} onClick={() => setSelectedIndex(index)}>
+      <p className={style.dateHeading}>{date}</p>
       <h4>{element.title}</h4>
-      <div className="author">
+      <div className={style.author}>
         <FiberManualRecordIcon
           style={{ color: sentiment ? (status ? "#8bc34a" : "#ff1744") : "" }}
         />
-        <p className="authorName">{element.publication}</p>
+        <p className={style.authorName}>{element.publication}</p>
       </div>
       <hr color="whitesmoke" />
     </div>
